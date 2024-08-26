@@ -21,6 +21,7 @@ end
 
 def float_division(a, b)
   (a * 1.0) / b
+  # solution: (a / b).to_f
 end
 
 def string_to_number(string)
