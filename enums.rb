@@ -90,3 +90,5 @@ end
 # Add 1 to the selected vote in the vote list
 # return result
 puts votes
+
+p [1, 2, 3].reduce(0) { |a, v| a + v }
